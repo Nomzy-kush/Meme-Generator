@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" content="width=content-width, initial-scale=1">
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./Skeleton-2.0.4/css/skeleton.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Meme Generator with JS</title>
+  </head>
+  <body>
+    <div class="row" id="grid-1">
+        <div class="one-half column">
+      <h4 class="choose-new-image">Choose new image</h4>
+      </div>
+      <div class="one-half column">
+      <input type="file" id="choose-image" class="col-md-6" style="cursor: pointer;">
+      </div>
+      </div>
+        <div class="row" id="grid-2">
+          <div class="one-half column">
+      <h5>Top Meme Text</h5>
+      <input type="text" id="text-above" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      </div>
+      <div class="one-half column">
+        <h5>Bottom Meme Text</h5>
+        <input type="text" id="text-below" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+      </div>
+    </div>
+
+    <div class="btn-div">
+      <button id="btn">Create New Meme</button>
+    </div>
+
+      <div class="">
+      <canvas id="canvas"></canvas>
+      </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
