@@ -8,6 +8,8 @@
     <title>Meme Generator with JS</title>
   </head>
   <body>
+    <h6>A Simple Meme Generator</h6>
+    <main>
     <div class="row" id="grid-1">
         <div class="one-half column">
       <h4 class="choose-new-image">Choose new image</h4>
@@ -16,6 +18,7 @@
       <input type="file" id="choose-image" class="col-md-6" style="cursor: pointer;">
       </div>
       </div>
+
         <div class="row" id="grid-2">
           <div class="one-half column">
       <h5>Top Meme Text</h5>
@@ -26,12 +29,13 @@
         <input type="text" id="text-below" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
       </div>
     </div>
+    </main>
 
     <div class="btn-div">
       <button id="btn">Create New Meme</button>
     </div>
 
-      <div class="">
+      <div id="canvas-container">
       <canvas id="canvas"></canvas>
       </div>
     <script src="./script.js"></script>
